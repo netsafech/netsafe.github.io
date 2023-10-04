@@ -4,26 +4,41 @@
     padding: 20px 30px; /* Espacio alrededor del texto */
     border: none; /* Sin borde */
     cursor: pointer; /* Cursor de tipo puntero */
-}.boton:hover {
+    }
+
+.boton:hover {
     background-color: #45a049; /* Cambia el color de fondo al pasar el ratón por encima */
-} header {
+} 
+
+header {
     background-color: #3498db; /* Cambia este valor al color que desees */
     color: white; /* Color del texto en el encabezado */
     padding: 20px; /* Espaciado interior para el contenido del encabezado */
-}header {
+}
+
+header {
     background: rgba(0,0,0,0.7);
     width: 100%;
     position: fixed;
     z-index: 100;
-  }nav {
+}
+  
+nav {
   float: left;
-}nav ul {
+}
+
+nav ul {
   list-style: none;
   overflow: hidden; 
-}nav ul li {
+}
+
+nav ul li {
   float: left;
   font-family: Arial, Helvetica, sans-serif;;
-  font-size: 20px;}nav ul li a {
+  font-size: 20px;
+}
+  
+nav ul li a {
   display: block; 
   padding: 20px;
   color: #fff;
