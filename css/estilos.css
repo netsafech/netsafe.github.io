@@ -11,16 +11,9 @@
 } 
 
 header {
-    background-color: #3498db; /* Cambia este valor al color que desees */
+    background-color: #0099ff; /* Cambia este valor al color que desees */
     color: white; /* Color del texto en el encabezado */
     padding: 20px; /* Espaciado interior para el contenido del encabezado */
-}
-
-header {
-    background: rgba(0,0,0,0.7);
-    width: 100%;
-    position: fixed;
-    z-index: 100;
 }
   
 nav {
