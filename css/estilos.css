@@ -1,5 +1,6 @@
-.head{
+div .head{
   height: 20px;
+  width: auto;
 }
 
 header{
