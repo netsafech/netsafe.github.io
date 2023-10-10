@@ -1,3 +1,13 @@
+.logo2{
+  height: 50px;
+}
+
+header{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: aquamarine;
+}
+
 .boton {
     background-color: #4CAF50; /* Color de fondo */
     color: white; /* Color del texto */
