@@ -43,5 +43,5 @@ nav ul li a {
   padding: 20px;
   color: #fff;
   text-decoration: none;
-} .arriba{background-color: #45a049;width: auto;height: auto;}
+} .arriba{background-color: #45a049;width: auto;height: auto;display: inline;}
 .navegador{display: inline;}
