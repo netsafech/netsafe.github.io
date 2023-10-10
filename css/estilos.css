@@ -1,8 +1,12 @@
+#head{
+  height: 50px;
+  margin: auto auto;
+}
 
 header{
+  background-color: aquamarine;
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: aquamarine;
   }
 
 .logo2{
