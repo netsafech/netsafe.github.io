@@ -8,14 +8,7 @@
 
 .boton:hover {
     background-color: #45a049; /* Cambia el color de fondo al pasar el ratón por encima */
-} 
-
-header {
-    background-color: #0099ff; /* Cambia este valor al color que desees */
-    color: white; /* Color del texto en el encabezado */
-    padding: 20px; /* Espaciado interior para el contenido del encabezado */
-}
-  
+}   
 nav {
   float: left;
 }
