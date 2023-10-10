@@ -1,16 +1,13 @@
-div .head{
-  height: 20px;
-  width: auto;
-}
 
 header{
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: aquamarine;
-}
+  }
 
 .logo2{
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
 
 .boton {
