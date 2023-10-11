@@ -1,13 +1,4 @@
-#head{
-  height: 50px;
-  margin: auto auto;
-}
 
-/* imagenes del header*/
-.line3{
-  width: 200px;
-  height: 200px;
-}
 
 header{
   background-color: aquamarine;
