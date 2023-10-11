@@ -3,6 +3,12 @@
   margin: auto auto;
 }
 
+/* imagenes del header*/
+.line3{
+  width: 50%;
+  height: 50%;
+}
+
 header{
   background-color: aquamarine;
   display: grid;
