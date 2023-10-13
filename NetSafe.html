@@ -21,11 +21,6 @@
             <h2 class="logo">Netsafe</h2>
           </div> 
           <section class="busqueda" >
-            <form  action="tu_script_de_búsqueda.php" method="GET">
-                <label for="busqueda">Buscar:</label>
-                <input type="text" id="busqueda" name="q" placeholder="Escribe tu búsqueda aquí" />
-                <input type="submit" value="Buscar" />
-            </form>
           </section>
           <nav class="superior" >
             <a href="" class="nav-link">Sesion</a>
@@ -42,11 +37,41 @@
             <li><a href="paginas/apps.html">App |</a></li>
             <li><a href="#Tips">Tips |</a></li>
             <li><a href="#Videos">Videos|</a></li>
+            <nav class="navbar bg-body-tertiary">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
         </ul>
         </nav>
         
         <figure>
-          <!-- Introduce the carousel code in this section -->
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </figure>
 
         <footer>
