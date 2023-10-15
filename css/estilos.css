@@ -1,7 +1,7 @@
 
 
 header{
-  background-color: aquamarine;
+  background-color: #1C8304;
   display: grid;
   grid-template-columns: auto auto auto;
   }
@@ -42,5 +42,5 @@ nav ul li a {
   padding: 20px;
   color: #fff;
   text-decoration: none;
-} .arriba{background-color: #45a049;width: auto;height: auto;display: inline;}
+} .arriba{background-color: #58BAE7;width: auto;height: auto;display: inline;}
 .navegador{display: inline;}
