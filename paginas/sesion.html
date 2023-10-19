@@ -3,59 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login y Regristro</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Login y Register - MagtimusPro</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/css/sesion.css">
 </head>
 <body>
 
-<main>
+        <main>
 
-    <div class="Contener__todo">
-
-        <div class="Caja__trasera">
-            <div class=""Caja__trasera-login>
-                <h3>¿Ya tienes una cuenta?</h3>
-                <p>Inicia sesion para entrar a la pagina</p>
-                <button id="btn__iniciar-sesion">Inicia sesion</button>
+            <div class="contenedor__todo">
+                <div class="caja__trasera">
+                    <div class="caja__trasera-login">
+                        <h3>¿You already have an account?</h3>
+                        <p>Login to enter the site </p>
+                        <button id="btn__iniciar-sesion">Login</button>
+                    </div>
+                    <div class="caja__trasera-register">
+                        <h3>¿You do not have an account yet?</h3>
+                        <p>Register so you can log in</p>
+                        <button id="btn__registrarse">Register</button>
+                    </div>
                 </div>
-                <div class="Caja__trasera-login">
-                    <h3>¿Aun no tienes una cueta?</h3>
-                    <p>Registrate para que puedas iniciar sesion</p>
-                    <button id="btn__registrarse">Registrarse</button>
-        </div>
-        </div>
 
-        <div class="contenedor__login-register">
+                <!--Formulario de Login y registro-->
+                <div class="contenedor__login-register">
+                    <!--Login-->
+                    <form action="" class="formulario__login">
+                        <h2>Login</h2>
+                        <input type="text" placeholder="Correo Electronico">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Enter</button>
+                    </form>
 
-            <form action="" class="formulario__login">
+                    <!--Register-->
+                    <form action="" class="formulario__register">
+                        <h2>Register</h2>
+                        <input type="text" placeholder="Nombre completo">
+                        <input type="text" placeholder="Correo Electronico">
+                        <input type="text" placeholder="Usuario">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Register</button>
+                    </form>
+                </div>
+            </div>
 
-                <h2>Inicia Sesion</h2>
-                <input type="text" placeholder="Correo Electronico">
-                <input type="password" placeholder="Contraseña">
-                <button>Entrar</button>
+        </main>
 
-                </form>
-
-                <form action="" class="formulario__register">
-                    <h2>Registrarse</h2>
-                    <input type="text" placeholder="Nombre completo">
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="text" placeholder="Usuario">
-                    <input type="text" placeholder="Contraseña">
-                    <button>Registrarse</button>
-
-                    
-        
-       
-
-    </section>
-
-    <section>
-        <div>
-          
-        </div>
-    </section>
-
+        <script src="/css/js/script.js"></script>
 </body>
-
 </html>
