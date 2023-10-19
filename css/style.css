@@ -122,3 +122,9 @@ width: 180px;
     height: 1px;
     background-color: #7a7a7a;
 }
+
+.contvideo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
