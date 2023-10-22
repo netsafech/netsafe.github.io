@@ -127,7 +127,9 @@ width: 180px;
     margin-top: 20px;
     color: #7a7a7a;
 }
-
+.box_copyright b{
+    color: #00ffff;
+}
 .box_copyright hr{
     border: none;
     height: 1px;
