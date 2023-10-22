@@ -29,6 +29,7 @@ header{
     flex-direction: row;
     gap: 30px;
     font-size: 20px;
+    color: white;
 }
 
 /* supongo es lo del color del seach */
