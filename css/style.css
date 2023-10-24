@@ -1,6 +1,8 @@
 body{
     font-family: sans-serif;
     margin: 0;
+    background-image: url(img/fondo.png);
+    background-size: cover;
 }
 a{
     text-decoration: none;
