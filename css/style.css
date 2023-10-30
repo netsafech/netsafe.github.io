@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
     margin: 0;
-    background-image: url(img/fondo.png);
+    background-image: url(img/fonod.png);
     background-size: cover;
 }
 a{
@@ -12,7 +12,7 @@ a{
 header{
     display: flex;
     height: 70px;
-    background-color: #1C8304  ;
+    background: linear-gradient(to right, #1C8304, #5dc1b9);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -34,17 +34,17 @@ header{
     color: white;
 }
 
-/* supongo es lo del color del seach */
-.btnbtn-outline-success{
-    color: beige
-}
 
 /* carrucel */
 .carousel-inner div img{
     height: 500px;
-    width: 450px;
+    width: 450px;}
 
+    /* nadvar */
+.nav{margin: 0; 
+    width: 100%;
 }
+
 .nav-link{
     display: inline;
    
@@ -54,7 +54,7 @@ header{
     list-style: none;
     padding: 0;
     background-color: #5D5D5E;
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
     margin: auto;
     
@@ -73,6 +73,70 @@ header{
     background: #58BAE7;
 }
 
+footer{
+    width: 100%;
+    background-color: #112f64 ;
+}
+
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.box_footer .logo_footer img{
+width: 180px;
+}
+.box_footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+.box_footer h2{
+    margin-bottom: 30px;
+    color:#c9c3c3;
+    font-weight: 700;
+}
+.box_footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+.box_footer a:hover{
+    opacity: 0.8;
+}
+.box_footer a .fab{
+    font-size: 20px;
+}
+
+.box_copyright{
+    max-width: 1200;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+.box_copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+.box_copyright b{
+    color: #00ffff;
+}
+.box_copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
 
 .contvideo{
     display: grid;
