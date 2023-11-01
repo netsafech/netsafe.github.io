@@ -1,8 +1,7 @@
 body{
     font-family: sans-serif;
     margin: 0;
-    background-image: url(img/fonod.png);
-    background-size: cover;
+    background: linear-gradient(to right, #89898a, #8a8a8a);
 }
 a{
     text-decoration: none;
@@ -153,7 +152,7 @@ header{
     .container-portfolio h2{
         margin-bottom: 40px;
     }
-    .container-portfolio{
+    .content-portfolio{
         display: flex;
         text-align: left;
         margin: 0px 150px 150px 150px;
